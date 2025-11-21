@@ -62,7 +62,7 @@
 
     .layout {
         min-height: calc(100dvh - 2 * 0.75rem);
-        grid-template-rows: min-content auto min-content;
+        grid-template-rows: min-content 1fr min-content;
         display: grid;
         gap: 1em;
         grid-template-areas:
