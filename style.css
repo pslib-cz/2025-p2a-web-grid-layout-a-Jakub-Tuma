@@ -62,7 +62,7 @@
 
     .layout {
         min-height: calc(100dvh - 2 * 0.75rem);
-        grid-template-rows: min-content 1fr min-content;
+        grid-template-rows: min-content auto min-content;
         display: grid;
         gap: 1em;
         grid-template-areas:
@@ -94,7 +94,6 @@
             grid-template-columns: 200px 1fr 200px;
             grid-template-areas:
                 'header header header'
-                'nav main aside'
                 'nav main aside'
                 'footer footer footer'
             ;
